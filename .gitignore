@@ -1,0 +1,11 @@
+# Файлы и папки операционной системы
+.DS_Store
+Thumbs.db
+
+# Вспомогательные файлы
+*.log*
+node_modules/
+
+# Собранные JS-файлы (бандл)
+dist/bundle.js
+dist/bundle.js.LICENSE.txt
