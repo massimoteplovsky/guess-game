@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  outline: 1px solid #000000;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 8rem;
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
+
+  &:hover {
+    outline: 3px solid #000000;
+  }
+}
+
+.cardActive {
+  background-color: yellow;
+  cursor: crosshair;
+
+  &:hover {
+    outline: 1px solid #000000;
+  }
+}
+
+.cardMatched {
+  background-color: green;
+  opacity: 0.4;
+
+  &:hover {
+    outline: 1px solid #000000;
+  }
+}

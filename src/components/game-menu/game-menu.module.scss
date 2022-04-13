@@ -1,0 +1,16 @@
+.container {
+  padding: 20px 0;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .settingsContainer {
+    display: flex;
+    align-items: center;
+
+    .settingsBlock {
+      margin-right: 20px;
+    }
+  }
+}
