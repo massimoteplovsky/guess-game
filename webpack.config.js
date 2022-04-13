@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 const path = require('path');
 const webpack = require('webpack');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, './src/index.js'),
+  entry: path.resolve(__dirname, './src/index.tsx'),
   module: {
     rules: [
       {

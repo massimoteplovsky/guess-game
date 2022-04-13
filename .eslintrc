@@ -1,16 +1,19 @@
 {
-  "parser": "@babel/eslint-parser",
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
-    "prettier"
+    "prettier",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
-  "plugins": ["react"],
+  "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "no-console": "warn",
     "no-undef": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-var-requires": "off"
   }
 }
